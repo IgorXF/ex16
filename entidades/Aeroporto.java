@@ -72,7 +72,7 @@ public class Aeroporto {
             if (v.getNumVoo().equals(numVoo)) {
                 v.alterarEstadoVoo("Voando");
                 System.out.println("Voo " + numVoo + " iniciado.");
-                return; // Encerra o método após encontrar e iniciar o voo
+                return;
             }
         }
         System.out.println("Voo " + numVoo + " não encontrado no aeroporto.");

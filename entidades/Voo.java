@@ -105,6 +105,10 @@ public class Voo {
             escalas.remove(escala);
         }
     }
+
+    public void alterarEstadoVoo(String novoEstadoVoo){
+        setEstadoV(novoEstadoVoo);
+    }
     
     public boolean verificaAbaixoCapacidadeMin(){
         if(passageiros.size() < 5){

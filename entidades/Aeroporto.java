@@ -70,7 +70,7 @@ public class Aeroporto {
     public void iniciarVoo(String numVoo) {
         for (Voo v : voos) {
             if (v.getNumVoo().equals(numVoo)) {
-                v.setEstadoV("Voando");
+                v.alterarEstadoVoo("Voando");
                 System.out.println("Voo " + numVoo + " iniciado.");
                 return; // Encerra o método após encontrar e iniciar o voo
             }
